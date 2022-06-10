@@ -1,0 +1,54 @@
+(base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ git clone https://raw.githubusercontent.com/organization-x/2022_notebook_solutions/main/NLP/NLP_and_Word2Vec_streamlined.ipynb
+Cloning into 'NLP_and_Word2Vec_streamlined.ipynb'...
+remote: 404: Not Found
+fatal: repository 'https://raw.githubusercontent.com/organization-x/2022_notebook_solutions/main/NLP/NLP_and_Word2Vec_streamlined.ipynb/' not found
+(base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ wget https://raw.githubusercontent.com/organization-x/2022_notebook_solutions/main/NLP/NLP_and_Word2Vec_streamlined.ipynb
+--2022-06-08 19:12:04--  https://raw.githubusercontent.com/organization-x/2022_notebook_solutions/main/NLP/NLP_and_Word2Vec_streamlined.ipynb
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 463732 (453K) [text/plain]
+Saving to: ‘NLP_and_Word2Vec_streamlined.ipynb’
+
+NLP_and_Word2Vec_streamlined.ipynb                                 0%[                                                                                                                                                          ]       0  --.-KB/s               NLP_and_Word2Vec_streamlined.ipynb                               100%[=========================================================================================================================================================>] 452.86K  --.-KB/s    in 0.004s  
+
+2022-06-08 19:12:05 (109 MB/s) - ‘NLP_and_Word2Vec_streamlined.ipynb’ saved [463732/463732]
+
+(base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ (base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ (base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ 
+(base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ wget https://www.kaggle.com/datasets/veeralakrishna/150k-python-dataset#:~:text=insert_drive_file-,py150,-.tar_1
+--2022-06-09 20:11:10--  https://www.kaggle.com/datasets/veeralakrishna/150k-python-dataset
+Resolving www.kaggle.com (www.kaggle.com)... 35.244.233.98
+Connecting to www.kaggle.com (www.kaggle.com)|35.244.233.98|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘150k-python-dataset’
+
+150k-python-dataset                                                  [<=>                                                                                                                                                       ]       0  --.-KB/s               150k-python-dataset                                                  [ <=>                                                                                                                                                      ]  18.66K  --.-KB/s    in 0s      
+
+2022-06-09 20:11:11 (47.6 MB/s) - ‘150k-python-dataset’ saved [19111]
+
+(base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ wget https://www.kaggle.com/datasets/veeralakrishna/150k-python-dataset#:~:text=insert_drive_file-,py150,-.tar_1/python100k_train.json
+--2022-06-09 20:12:03--  https://www.kaggle.com/datasets/veeralakrishna/150k-python-dataset
+Resolving www.kaggle.com (www.kaggle.com)... 35.244.233.98
+Connecting to www.kaggle.com (www.kaggle.com)|35.244.233.98|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘150k-python-dataset.1’
+
+150k-python-dataset.1                                                [<=>                                                                                                                                                       ]       0  --.-KB/s               150k-python-dataset.1                                                [ <=>                                                                                                                                                      ]  18.66K  --.-KB/s    in 0s      
+
+2022-06-09 20:12:03 (43.0 MB/s) - ‘150k-python-dataset.1’ saved [19111]
+
+(base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ wget https://www.kaggle.com/datasets/veeralakrishna/150k-python-dataset#:~:text=insert_drive_file-,py150,-.tar_1[K[K[K[K[Kjson[K[K[K[K[K[K[K,-.tarz
+--2022-06-09 20:13:18--  https://www.kaggle.com/datasets/veeralakrishna/150k-python-dataset
+Resolving www.kaggle.com (www.kaggle.com)... 35.244.233.98
+Connecting to www.kaggle.com (www.kaggle.com)|35.244.233.98|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘150k-python-dataset’
+
+150k-python-dataset                                                  [<=>                                                                                                                                                       ]       0  --.-KB/s               150k-python-dataset                                                  [ <=>                                                                                                                                                      ]  18.66K  --.-KB/s    in 0.001s  
+
+2022-06-09 20:13:18 (23.3 MB/s) - ‘150k-python-dataset’ saved [19111]
+
+(base) ]0;~/Daily Work/Blake (Instructor)[01;34m~/Daily Work/Blake (Instructor)[00m$ 
