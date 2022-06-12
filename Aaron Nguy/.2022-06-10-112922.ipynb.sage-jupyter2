@@ -1,0 +1,12 @@
+{"backend_state":"running","connection_file":"/projects/7a0d9dc4-a729-4511-b795-d6d235d03b6d/.local/share/jupyter/runtime/kernel-3c303342-a485-40b3-9c39-2a2d0c04d3b8.json","kernel":"nlp_env","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"id":"22436d","input":"","pos":8,"state":"done","type":"cell"}
+{"id":"387fa6","input":"","pos":1,"type":"cell"}
+{"id":"39c2ab","input":"import os\n\nos.path.isfile(parameter)\n\npython_files = []\n\ndef extract_python_files(filepath):\n\n    global python_files\n\n    if os.path.file(filepath) and filepath[-2:] == 'py':\n        python_files.append(filepath)\n\n    elif os.path.isfile(filepath):\n        return none\n\n    else:\n        filepath_files = os.listdir(filepath)\n\n        for filepath_file in filepath_files:\n            extract_python_files(f'{filepath}/{filepath_file}')\n\nprint(len(python_files))\n\nimport random\n\nfiles_sample = random.sample(python_files, 600)\n\ncode_dataset = open('code_dataset.txt', 'w')\n\nfor filepath in files_sample:\n\n    file_code = open(filepath, encoding = 'latin-1').readlines()\n\n    for line in file_code:\n\n        code_dataset.write(line)\n\ncode_dataset.close()","kernel":"nlp_env","pos":0,"type":"cell"}
+{"id":"403486","input":"","pos":3,"state":"done","type":"cell"}
+{"id":"6b4b6f","input":"","pos":2,"state":"done","type":"cell"}
+{"id":"8038b9","input":"","pos":5,"state":"done","type":"cell"}
+{"id":"a617c6","input":"","pos":7,"state":"done","type":"cell"}
+{"id":"bb908b","input":"","pos":4,"state":"done","type":"cell"}
+{"id":"d54413","input":"","pos":6,"state":"done","type":"cell"}
+{"id":0,"time":1654886096832,"type":"user"}
+{"last_load":1654885764126,"type":"file"}

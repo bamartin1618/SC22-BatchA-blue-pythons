@@ -1,0 +1,4 @@
+{"backend_state":"running","connection_file":"/projects/7a0d9dc4-a729-4511-b795-d6d235d03b6d/.local/share/jupyter/runtime/kernel-e4d7dc9c-a880-4ae2-83ba-aa26b4ce112e.json","kernel":"nlp_env","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"exec_count":4,"id":"b94ca1","input":"class Tree:\n    \n    def __init__(self, key):\n        \n        self.root = key\n        self.left = None\n        self.right = None\nour_tree = Tree(2)\nour_tree.left = Tree(7)\nour_tree.right = Tree(5)\nour_tree.left.left = Tree(2)\n","kernel":"nlp_env","output":{"0":{"data":{"text/plain":"<__main__.Tree at 0x7fcd1eeb93d0>"},"exec_count":4}},"pos":0,"state":"done","type":"cell"}
+{"id":"7bd697","input":"","pos":1,"type":"cell"}
+{"last_load":1654887279424,"type":"file"}
